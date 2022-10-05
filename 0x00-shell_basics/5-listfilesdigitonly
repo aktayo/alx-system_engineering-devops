@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | less 5
+ls | less
