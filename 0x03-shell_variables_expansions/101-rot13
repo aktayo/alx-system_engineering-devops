@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '[A-Za-a]' '[N -ZA-Mn-za-m]'
+/bin/sed y/abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/nopqrstuvwxyzabc defghijk1nNOPQRSTUVWXYZABCDEFGHIJKLM/ $1 | nore
