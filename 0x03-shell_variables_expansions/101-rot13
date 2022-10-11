@@ -1,2 +1,1 @@
 #!/bin/bash
-/bin/sed y/abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/nopqrstuvwxyzabc defghijk1nNOPQRSTUVWXYZABCDEFGHIJKLM/ $1 | nore
